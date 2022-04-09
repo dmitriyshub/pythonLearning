@@ -51,7 +51,7 @@ else:
 
 i = 0
 while i < 3:
-    print("Hello, world")
+    print("1Hello, world")
     i += 1
 
 # ## For loop ###
@@ -63,15 +63,17 @@ while i < 3:
 # 4# on the last iteration of this loop set i equal to 2 for me#
 
 for i in [0,1,2]: # not a "Pythonic way"
-    print("Hello, World!")
+    print("2Hello, World!")
 
 # same for loop that uses a range function instead:
 # this function will automatically generate for you a list of three values from 0 to 2
 # and then python will itorate over those three values for you!
 
 for i in range(3): # is a "Pythonic way"
-    print("Hello, world")
+    print("3Hello, world")
 
+for i in range(0,101,2): # start in 0 stop in 101 in step by two (0, 2 ,4 ,6 ,8 and so on)
+    print("4Hello, world")
 # ## Types: ###
 
 # Python is a loosely Typed language # C is a strongly Typed language
@@ -106,7 +108,9 @@ set # Set is a collection of values like a,b,c or 1,2,3 without duplicates!
 # or import only specific function by typing [from libray_name import function_name]
 
 #Functions
-# def for declare a function % so give me a function called load that takes an argument called dictionary
+# def for declare a function
+
+
 words = set()
 
 def check(word):
@@ -133,3 +137,6 @@ def unload():
 
 print(check("her"))
 print(size())
+
+
+

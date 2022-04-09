@@ -1,4 +1,13 @@
 
+#myName = ('Donald Trump')
+#splitName = myName.split()
+#splitName[1]
+
+#print(myName[:len(myName) // 3])
+
+#dim = ('Hello World')
+#print(dim.upper().find('o'))\
+
 
 # creating list
 a = [1, 2, 3, 4,"Hello", "World"] # list can be made by variable = list() or variable = []
@@ -69,3 +78,11 @@ for word in list1:
         break
     else:
         print(word.upper())
+
+string = "hello world"
+list2 = list(string)
+s = "o"
+for x in list2:
+    if x == s:
+        print("index "+str(l.index(x)) + " and symbol "+x)
+        l.remove(x)

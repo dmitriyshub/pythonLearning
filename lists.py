@@ -1,41 +1,3 @@
-#list = [1, 5, 7, 11, 15]
-
-#for counter in list [ : len(list) // 2]:
-#    print(counter)
-
-#list1 = ['hello', 'python', 'pem', 'world of coding']
-#for counter in list1 :
-#    print(counter.upper())
-
-#for word in list1:
-#    if len(word) < 4 :
-#        break
-#    else:
-#        print(word.upper())
-
-#myName = ('Donald Trump')
-#splitName = myName.split()
-#splitName[1]
-
-#print(myName[:len(myName) // 3])
-
-#dim = ('Hello World')
-#print(dim.upper().find('o'))\
-
-"""
-string="hello world"
-l=list(string)
-s="o"
-for x in l:
-    if x==s:
-        print("index "+str(l.index(x)) + " and symbol "+x)
-        l.remove(x)
-"""
-
-
-
-
-
 
 
 # creating list
@@ -92,3 +54,18 @@ i = 0
 while i < len(comp):
     print(comp[i])
     i += 1
+
+list = [1, 5, 7, 11, 15]
+
+for i in list [ : len(list) // 2]:
+    print(i)
+
+list1 = ['hello', 'python', 'pem', 'world of coding']
+for counter in list1 :
+    print(counter.upper())
+
+for word in list1:
+    if len(word) < 4 :
+        break
+    else:
+        print(word.upper())

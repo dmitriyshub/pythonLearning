@@ -65,3 +65,30 @@ a.insert(0,99) #(insert new elements to index) 0 is the index of the element and
 print(a)
 print(a.pop(2)) # remove 2 by value from list
 print(a)
+a.clear() # delete all elements from lists
+print(a)
+a.append(99)
+print("The index of the element is: ", a.index(99)) # show the index of elements with 99 value
+a.clear()
+a = [76,23,45,121,54,11,3]
+print("list a: ", a)
+a.sort() # sort the list method
+print("sorted list a: ", a)
+a = [76,23,45,121,54,11,3]
+a.sort(reverse=True) # reverse
+print("reversed and sorted list: ", a)
+
+"""
+n = int(input("insert a number: "))
+a = [i for i in range(n)]
+print(a)
+"""
+
+comp = ["Apple", "Facebook", "Google"]
+
+for i in comp:
+    print(i)
+i = 0
+while i < len(comp):
+    print(comp[i])
+    i += 1

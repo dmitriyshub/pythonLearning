@@ -105,4 +105,31 @@ set # Set is a collection of values like a,b,c or 1,2,3 without duplicates!
 # we can import some libraries by typing [import library_name]
 # or import only specific function by typing [from libray_name import function_name]
 
+#Functions
+# def for declare a function % so give me a function called load that takes an argument called dictionary
+words = set()
 
+def check(word):
+    if word.lower() in words:
+        return True
+    else:
+        return False
+
+
+def load(dictionary):
+    file = open(dictionary, "r")
+    for line in file:
+        word.add(line.rstrip())
+    file.close()
+    return True
+
+
+def size():
+    return len(words)
+
+def unload():
+    return True
+
+
+print(check("her"))
+print(size())

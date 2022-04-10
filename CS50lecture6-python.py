@@ -73,7 +73,7 @@ for i in range(3): # is a "Pythonic way"
     print("3Hello, world")
 
 for i in range(0,101,2): # start in 0 stop in 101 in step by two (0, 2 ,4 ,6 ,8 and so on)
-    print("4Hello, world")
+    print("4Hello, world", i)
 # ## Types: ###
 
 # Python is a loosely Typed language # C is a strongly Typed language
@@ -138,5 +138,9 @@ def unload():
 print(check("her"))
 print(size())
 
-
-
+# prompt user for x
+x = int(input("Give me x? "))
+# prompt user for  y
+y = int(input("Give me y? "))
+#perform and print x+y
+print(f"Number: {x+y}")

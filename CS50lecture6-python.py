@@ -104,7 +104,7 @@ set # Set is a collection of values like a,b,c or 1,2,3 without duplicates!
 
 # ## Libraries ###
 
-# we can import some libraries by typing [import library_name]
+# we can import some libraries by typing [import library_name]   v
 # or import only specific function by typing [from libray_name import function_name]
 
 #Functions
